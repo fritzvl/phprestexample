@@ -1,0 +1,12 @@
+{
+    "repositories": [{
+    	    "type": "pear",
+            "url": "http://pear.php.net",
+            "vendor-alias": "pear"        
+    	}],
+    "require": {
+        "slim/slim": "2.*" ,
+        "propel/propel1" : "1.6.*",
+        "pear/Log" : "1.12.*"
+    }
+}

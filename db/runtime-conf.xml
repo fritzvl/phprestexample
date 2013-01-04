@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>    
+  <propel>
+    <datasources default="wpapi">
+      <datasource id="wpapi">
+        <adapter>mysql</adapter> <!-- sqlite, mysql, mssql, oracle, or pgsql -->
+        <connection>
+          <dsn>mysql:host=localhost;dbname=wordpress</dsn>
+          <user>root</user>
+          <password>123456</password>
+        </connection>
+      </datasource>
+    </datasources>
+  </propel>
+</config>
